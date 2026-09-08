@@ -8,8 +8,8 @@
 
     },
     "matrix_pins": {
-        "rows": ["GP2", "GP3", "GP4", "GP5"],
-        "cols": ["GP6", "GP7", "GP8", "GP9"]
+        "rows": ["B1", "B2", "B3", "B4"],
+        "cols": ["C1", "C2", "C3", "C4"]
     },
     "processor": "STM32F401",
     "url": "NA"
