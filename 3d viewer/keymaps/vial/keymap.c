@@ -25,12 +25,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_BASE] = LAYOUT_ortho_4x5(
 //encoder 
 //X
-KC_TRNS, KC_TRNS,  
+joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {
+    JOYSTICK_AXIS_IN(A1, 900, 575, 285),
+    JOYSTICK_AXIS_VIRTUAL
+};
 //Y
-KC_TRNS, KC_TRNS, 
+joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {
+    JOYSTICK_AXIS_IN(A2, 900, 575, 285),
+    JOYSTICK_AXIS_VIRTUAL
+};
 //Z
-KC_TRNS, KC_TRNS,  
+joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {
+    JOYSTICK_AXIS_IN(A3, 900, 575, 285),
+    JOYSTICK_AXIS_VIRTUAL
+};
 
+  //toggle
+      KC_TRNS,
   //,macropad--------------------------------------.
       KC_TRNS,  KC_TRNS,  KC_TRNS, KC_TRNS,    
   //|---------+---------+---------+--------|
@@ -48,8 +59,3 @@ KC_TRNS, KC_TRNS,
 
 
 /* Rotary Encoder Settings */
-#if defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] =  {    ENCODER_CCW_CW(KC_TRNS, KC_TRNS),   ENCODER_CCW_CW(KC_TRNS, KC_TRNS),    ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
-    
-    },

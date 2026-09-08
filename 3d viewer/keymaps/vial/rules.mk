@@ -62,3 +62,5 @@ COMBO_ENABLE = no
 # Disabling it frees 3300 bytes
 QMK_SETTINGS = yes
 
+#joystick
+JOYSTICK_ENABLE = yes
