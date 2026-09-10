@@ -7,8 +7,7 @@
 #define DYNAMIC_KEYMAP_MACRO_COUNT 32
 
 
-// Min 0, max 32
-#define JOYSTICK_BUTTON_COUNT 16
+
 // Min 0, max 6: X, Y, Z, Rx, Ry, Rz
 #define JOYSTICK_AXIS_COUNT 3
 // Min 8, max 16
