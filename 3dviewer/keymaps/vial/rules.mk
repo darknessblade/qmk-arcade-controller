@@ -4,6 +4,9 @@ VIAL_ENABLE = yes
 #vial security
 VIAL_INSECURE = yes
 
+# Bootloader selection
+BOOTLOADER = apm32-dfu
+
 # link time optimization to reduce firmware size
 LTO_ENABLE = yes
 
@@ -31,7 +34,7 @@ SPACE_CADET_ENABLE = no
 
 # https://docs.qmk.fm/#/keycodes_magic
 # Disabling it frees 630 bytes
-MAGIC_ENABLE = yes
+MAGIC_ENABLE = no
 
 # https://docs.qmk.fm/#/feature_mouse_keys
 # Mouse keys
@@ -60,7 +63,7 @@ COMBO_ENABLE = no
 # You can enable auto shift feature. E.g. press 2 longer than 200ms gives @
 # Enable it and go to Vial to see more features
 # Disabling it frees 3300 bytes
-QMK_SETTINGS = yes
+QMK_SETTINGS = no
 
 #joystick
 JOYSTICK_ENABLE = yes

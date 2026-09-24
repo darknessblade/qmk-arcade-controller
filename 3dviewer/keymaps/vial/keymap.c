@@ -38,6 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
+
 //encoder 
 //X
 joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {

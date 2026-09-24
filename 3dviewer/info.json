@@ -2,7 +2,7 @@
     "manufacturer": "x",
     "keyboard_name": "3D viewer",
     "maintainer": "darkness",
-    "bootloader": "stm32-dfu",
+    "bootloader": "apm32-dfu",
     "diode_direction": "ROW2COL",
     "features": {
 
