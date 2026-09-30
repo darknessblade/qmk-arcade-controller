@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───┴───┴───┘
      */
 	 
-  [_BASE] = LAYOUT_ortho_5x4(
+  [_BASE] = LAYOUT_ortho_4x5(
   //toggle
 
   //,macropad--------------------------------------.

@@ -6,6 +6,7 @@
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 #define DYNAMIC_KEYMAP_MACRO_COUNT 32
 
+//joystick input: A0, A1, A2
 
 // Min 0, max 32
 #define JOYSTICK_BUTTON_COUNT 16

@@ -4,8 +4,7 @@ VIAL_ENABLE = yes
 #vial security
 VIAL_INSECURE = yes
 
-# Bootloader selection
-BOOTLOADER = apm32-dfu
+
 
 # link time optimization to reduce firmware size
 LTO_ENABLE = yes
